@@ -1,0 +1,11 @@
+RecordID,Department,System,Env,Meta1,VM_Size,Owner,ExtraA,ExtraB
+301,Engineering,linux,prod,X1,m5.large,Team-A,A1,B1
+302,Data,WINDOWS,dev,X2,c5.xlarge,Team-B,A2,B2
+303,AI,Lin,prod,X3,m6i.large,Team-C,A3,B3
+304,Platform,linux,stage,X4,db.c5.2xlarge,Team-D,A4,B4
+305,Analytics,Win,prod,X5,db.r5.large,Team-E,A5,B5
+306,Infra,linux,dev,X6,t3.medium,Team-F,A6,B6
+307,Core,Linux,prod,X7,M4.LARGE,Team-G,A7,B7
+308,ML,linux,prod,X8,db.m5.large,Team-H,A8,B8
+309,QA,windows,test,X9,c6i.large,Team-I,A9,B9
+310,Security,linux,prod,X10,m5.xlarge,Team-J,A10,B10

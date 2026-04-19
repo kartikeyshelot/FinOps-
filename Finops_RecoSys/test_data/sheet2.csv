@@ -1,0 +1,12 @@
+RecordID,Billing_Amount,Region,BackupCost,ExtraC,Notes
+301,125,eu-west-1,10,C1,Stable
+302,210,eu-west-1,12,C2,Scaling
+303,155,eu-west-1,15,C3,Stable
+304,305,eu-west-1,20,C4,DB Load
+305,260,eu-west-1,18,C5,DB Stable
+306,85,eu-west-1,9,C6,Low usage
+307,115,eu-west-1,11,C7,Old Gen
+308,280,eu-west-1,17,C8,DB Moderate
+309,95,eu-west-1,8,C9,Testing
+310,215,eu-west-1,13,C10,Critical
+311,500,eu-west-1,25,C11,Extra Row Not In D1
