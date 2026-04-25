@@ -1,0 +1,21 @@
+RecordID,Department,Owner,Product,Environment,Application,Meta1,Meta2,Instance_Type,Region,Actual_Cost_per_Hour_USD,Backup_Cost,Extra1,Extra2,Notes
+601,Engineering,Team-A,Linux/Unix,prod,App-1,X1,Y1,m5.large,eu-west-1,0.096,0.01,A,B,Normal case
+602,Data,Team-B,Windows,dev,App-2,X2,Y2,C5.XLARGE,eu-west-1,0.192,0.02,C,D,Uppercase instance
+603,AI,Team-C,ubuntu,prod,App-3,X3,Y3,m6i.large,eu-west-1,0.111,0.015,E,F,Ubuntu OS
+604,Platform,Team-D,win,stage,App-4,X4,Y4,c5.xlarge,eu-west-1,0.17,0.02,G,H,Windows short form
+605,Analytics,Team-E,,prod,App-5,X5,Y5,m5.xlarge,eu-west-1,0.192,0.018,I,J,Missing OS fallback
+606,Infra,Team-F,linux,dev,App-6,X6,Y6,t3.medium,eu-west-1,0.0416,0.005,K,L,Low usage
+607,Core,Team-G,Linux,prod,App-7,X7,Y7,M4.LARGE,eu-west-1,0.12,0.01,M,N,Old gen
+608,ML,Team-H,amazon linux,prod,App-8,X8,Y8,c6i.large,eu-west-1,0.085,0.01,O,P,New gen
+609,QA,Team-I,windows,test,App-9,X9,Y9,c6i.large,eu-west-1,0.1,0.008,Q,R,Windows pricing
+610,Security,Team-J,linux,prod,App-10,X10,Y10,m5.xlarge,eu-west-1,0.192,0.013,S,T,Critical workload
+611,Ops,Team-K,debian,prod,App-11,X11,Y11,unknown.type,eu-west-1,0.5,0.025,U,V,Invalid instance
+612,Finance,Team-L,linux,prod,App-12,X12,Y12,m5_large,eu-west-1,0.12,0.014,W,X,Bad format instance
+613,DevOps,Team-M,rhel,prod,App-13,X13,Y13,c5n.2xlarge,eu-west-1,0.34,0.022,Y,Z,High performance
+614,Research,Team-N,linux,prod,App-14,X14,Y14,   m5.large   ,eu-west-1,0.096,0.016,A1,B1,Spaces in instance
+615,Legal,Team-O,windows,prod,App-15,X15,Y15,"'=HYPERLINK(""http://malicious.com"")",eu-west-1,0.15,0.017,C1,D1,Formula injection
+616,HR,Team-P,linux,prod,App-16,X16,Y16,m5.large*5000,eu-west-1,0.2,0.018,E1,F1,Very long string
+617,Admin,Team-Q,ubuntu,prod,App-17,X17,Y17,c6g.large,eu-west-1,0.068,0.019,G1,H1,Graviton
+618,Support,Team-R,linux,prod,App-18,X18,Y18,c6i.large,eu-west-1,0.085,0.008,I1,J1,Duplicate row test
+619,Support,Team-R,linux,prod,App-18,X18,Y18,c6i.large,eu-west-1,0.085,0.008,I1,J1,Duplicate row
+620,Audit,Team-S,linux,prod,App-19,X19,Y19,,eu-west-1,0.12,0.012,K1,L1,Missing instance
